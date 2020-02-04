@@ -81,7 +81,6 @@
 		if ($form->getName()=='com_users.profile')
 		{
 			// Add the profile fields to the form.
-			//This is the profile template
 			JForm::addFormPath(dirname(__FILE__).'/profiles');
 			$form->loadFile('profile', false);
 	
